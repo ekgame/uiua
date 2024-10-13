@@ -1,0 +1,37 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export function start(): void;
+export function registerUiuaEditorElement(): void;
+export function __wbg_intounderlyingsource_free(a: number, b: number): void;
+export function intounderlyingsource_pull(a: number, b: number): number;
+export function intounderlyingsource_cancel(a: number): void;
+export function __wbg_intounderlyingsink_free(a: number, b: number): void;
+export function intounderlyingsink_write(a: number, b: number): number;
+export function intounderlyingsink_close(a: number): number;
+export function intounderlyingsink_abort(a: number, b: number): number;
+export function __wbg_intounderlyingbytesource_free(a: number, b: number): void;
+export function intounderlyingbytesource_type(a: number, b: number): void;
+export function intounderlyingbytesource_autoAllocateChunkSize(a: number): number;
+export function intounderlyingbytesource_start(a: number, b: number): void;
+export function intounderlyingbytesource_pull(a: number, b: number): number;
+export function intounderlyingbytesource_cancel(a: number): void;
+export function __wbg_bridge_free(a: number, b: number): void;
+export function bridge_connectedCallback(a: number): void;
+export function bridge_disconnectedCallback(a: number): void;
+export function bridge_adoptedCallback(a: number): void;
+export function bridge_attributeChangedCallback(a: number, b: number, c: number, d: number, e: number): void;
+export function bridge_handleEvent(a: number, b: number): void;
+export function __wbindgen_malloc(a: number, b: number): number;
+export function __wbindgen_realloc(a: number, b: number, c: number, d: number): number;
+export const __wbindgen_export_2: WebAssembly.Table;
+export function _dyn_core__ops__function__FnMut__A_B___Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h05d082b1b72015fa(a: number, b: number, c: number, d: number): number;
+export function _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h1f9ffda94b107057(a: number, b: number, c: number): void;
+export function _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h395ff8c1eaf599b2(a: number, b: number, c: number): void;
+export function _dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h87fa369e4e5b7c0f(a: number, b: number): void;
+export function _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__haa94ef96eea15e9e(a: number, b: number, c: number): void;
+export function __wbindgen_free(a: number, b: number, c: number): void;
+export function __wbindgen_exn_store(a: number): void;
+export function __wbindgen_add_to_stack_pointer(a: number): number;
+export function wasm_bindgen__convert__closures__invoke2_mut__h96c526271102cb82(a: number, b: number, c: number, d: number): void;
+export function __wbindgen_start(): void;

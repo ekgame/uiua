@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @font-face {
+            font-family: "Code Font";
+            src: url(./Uiua386.ttf) format("truetype");
+        }
+    </style>
+    <script type="module">
+        import initWasm, { registerUiuaEditorElement } from "./compiled/leptos_app.js";
+        await initWasm();
+        registerUiuaEditorElement();
+    </script>
+
+    <uiua-editor></uiua-editor>
+    <uiua-editor></uiua-editor>
+    <uiua-editor></uiua-editor>
+</body>
+</html>

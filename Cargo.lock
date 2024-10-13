@@ -1013,6 +1013,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "custom-element"
+version = "0.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fa66d5106c89bf1f2153c5e1f361388c2a10444a7a3f22354b85f9700c445050"
+dependencies = [
+ "js-sys",
+ "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
 name = "darling"
 version = "0.14.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1950,6 +1961,28 @@ dependencies = [
  "typed-builder",
  "typed-builder-macro",
  "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
+name = "leptos-app"
+version = "0.1.0"
+dependencies = [
+ "base64 0.22.0",
+ "console_error_panic_hook",
+ "custom-element",
+ "hound",
+ "image",
+ "js-sys",
+ "leptos",
+ "leptos_router",
+ "log",
+ "uiua",
+ "unicode-segmentation",
+ "urlencoding",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm-logger",
  "web-sys",
 ]
 
@@ -4458,6 +4491,17 @@ name = "wasm-bindgen-shared"
 version = "0.2.93"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c62a0a307cb4a311d3a07867860911ca130c3494e8c2719593806c08bc5d0484"
+
+[[package]]
+name = "wasm-logger"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "074649a66bb306c8f2068c9016395fa65d8e08d2affcbf95acf3c24c3ab19718"
+dependencies = [
+ "log",
+ "wasm-bindgen",
+ "web-sys",
+]
 
 [[package]]
 name = "wasm-streams"
